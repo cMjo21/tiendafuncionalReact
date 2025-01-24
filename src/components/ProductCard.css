@@ -1,0 +1,24 @@
+.product-card {
+  
+    padding: 10px;
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    transition: transform 0.2s ease; /* Transición suave para el efecto hover */
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px); /* Elevar la tarjeta al pasar el ratón por encima */
+  }
+  
+  .product-card img {
+    width: 50%;
+    height: auto;
+    border-top-left-radius: 5px; /* Bordes redondeados en la imagen */
+    border-top-right-radius: 5px;
+  }
+
+  .product-card__image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

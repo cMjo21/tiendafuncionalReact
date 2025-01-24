@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    flex-direction: column; /* Distribuir los elementos en columna */
+    height: 100%;
+  }
+  
+  .main-content { /* Clase para el contenido principal */
+    flex-grow: 1; /* Ocupar el espacio disponible */
+  }
+  
+  footer {
+    /* Estilos del pie de página */
+  }
+
+.banner {
+    position: relative; /* Para posicionar el texto sobre la imagen */
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .banner img {
+    width: 50%;
+    height: auto;
+  }
+  
+  .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Ajusta el color según la imagen del banner */
+  }
+
+
+  .carousel-image{
+    width: 100px; /* Ajusta el ancho a tu gusto */
+    height: auto; /* Mantiene la proporción de aspecto */
+
+  }
+
+
+  .carruselitems{
+   
+    
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+
+
+  .carousel-item img { /* Aplicar estilos a las imágenes dentro de .carousel-item */
+    
+    width: 50px; /* Ajusta el ancho a tu gusto */
+    height: auto; /* Mantiene la proporción de aspecto */
+    align-items: center;
+  }
+
+  .carousel .carousel-item { 
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+  }
+
+ 
+
+  .carrusel{ 
+    
+
+  background-color: blue;
+  width: auto;
+  height: auto;
+  
+  }
+
+ 

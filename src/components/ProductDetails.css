@@ -1,0 +1,16 @@
+.product-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center; /* Centrar el contenido horizontalmente */
+  gap: 20px; /* Espacio entre la imagen y la información */
+}
+
+.product-details img {
+  width: 50%; 
+  max-width: 300px; 
+}
+
+.product-details-info {
+  /* Puedes añadir estilos para la información del producto aquí */
+  text-align: left; /* Alinea el texto a la izquierda */
+}
